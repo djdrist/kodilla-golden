@@ -67,3 +67,20 @@ header a{
     margin: 0px;
     padding-top: 15px;
 }
+/* Footer */
+footer {
+    .container{
+    background: white;
+    }  
+}
+footer li {
+    display: inline-block;
+    margin: 0;
+    padding-left: 10px;
+}
+.copyright {
+    padding: 15px;
+}
+footer ul {
+    padding-inline-start: 0px;
+}
