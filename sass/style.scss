@@ -42,3 +42,16 @@ header a{
 .header {
     text-align: center;
 }
+/* Services */
+.services{
+    .container{
+        background: white;
+        text-align: center;
+    }
+}
+.services i {
+    font-size: 40px;
+    color: red;
+    --fa-border-radius: 25px;
+    --fa-border-color: red;
+}
