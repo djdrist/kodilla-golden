@@ -3,44 +3,85 @@
     display: inline-block;
     min-width: 160px;
     margin: 24px auto 0 auto;
-    padding: 16px;
+    padding: 20px;
     border-radius: 5px;
-    font-family: 'Inconsolata';
-    font-size: 16px;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
     background-position: 100% 0;
     background-size: 300%;
     transition: all 1s;
+    position: relative;
 }
   .btn-one {
-    background-color: rgb(135, 31, 31);
+    background-color: rgb(247, 219, 39);
     color: white;
 }
 body {
     background-color: black;
 }
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    position: relative;
+}
+h2 {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 60px;
+    position: relative;
+}
+h3 {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+h4 {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 18px;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
 /* Header */
 .logo {
     padding: 20px 100px;
+    color: rgb(247, 219, 39);
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    position: relative;
 }
 header li {
+    font-family: 'Signika Negative', sans-serif;
     display: inline-block;
     padding-left: 20px;
+    font-size: 20px;
+    position: relative;
 }
 header a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .main {
-    background-image: url("https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    position: relative;
+    background-image: url("https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1600");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 700px;
+}
+.main::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.75);
 }
 .header {
     text-align: center;
+    color: white;
 }
 /* Services */
 .services{
@@ -51,9 +92,10 @@ header a{
 }
 .services i {
     font-size: 40px;
-    color: red;
-    --fa-border-radius: 25px;
-    --fa-border-color: red;
+    color: rgb(247, 219, 39);
+    --fa-border-radius: 100px;
+    --fa-border-color: rgb(247, 219, 39);
+    --fa-border-padding: 25px;
 }
 /* Portfolio */
 .portfolio{
@@ -78,9 +120,9 @@ footer li {
     margin: 0;
     padding-left: 10px;
 }
-.copyright {
-    padding: 15px;
-}
 footer ul {
     padding-inline-start: 0px;
+}
+footer i {
+    font-size: 20px;
 }
